@@ -17,13 +17,24 @@ After a brief understanding Linux, we can try to start with shell, which is the 
 ### Basic Shell Commands
 [Here](https://www.digitalocean.com/community/tutorials/basic-linux-navigation-and-file-management) is a tutorial
 Here is a list (under construction...)
+entry level
 * pwd
 * cd
+    * cd -
 * touch
 * mv
 * cp
-* less
 * cat
+* less
+
+|key|usage|
+|---|---|
+|j||
+|k||
+|space||
+|/\<content\> + Enter| search |
+
+
 * tail
 * head
 * cut
@@ -32,9 +43,10 @@ Here is a list (under construction...)
 
 ### Conventional Paths
 [Here](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard) are some conventional Linux paths, you will understand why some packages are storaged under certain folders
-### Environmental Variables
-#### Understanding $PATH
 ### .bash_profile
+#### Environmental Variables
+#### Understanding $PATH
+#### Alias
 ### Pipeline Redirection
 
 [this](./content/basic_linux_commands.md)
