@@ -1,1 +1,0 @@
-# Pipeline, Redirection & Environmental Variables

@@ -12,51 +12,32 @@ Disclaimer: English is my second language. If you are confused, please let me kn
 
 [Basic Shell Commands (Bash)](./content/basic_shell_commands)
 
-- [Navigate](./content/basic_shell_commands/navigate_directories.md)
+- [Navigate](./content/basic_shell_commands/navigate.md)
 - [Coventional Paths](./content/basic_shell_commands/conventional_paths.md)
 
 > 🚧🚧🚧 everything below is under construction 🚧🚧🚧
+- [File](./content/basic_shell_commands/file.md)
+- [Environmental Variables](./content/basic_shell_commands/environmental_variables.md)
 
-- [File Commands]()
-- [User / Group Access]()
+[Pipeline](./content/pipeline.md)
+
+[Shell Script](./content/shell_script.md)
+
+[User / Group](./content/user_group.md)
+
+[Process](./content/process.md)
+
+[Network](./content/network.md)
+
+[Volume](./content/volume.md)
+
+[Regex](./content/regex.md)
+
+[SSH](./content/ssh.md)
+
+[Vim](./content/vim.md)
 
 
-[Regex]()
-- [File]()
-- [File]()
-- [File]()
-
-### Manipulate File System
-
-#### Read Files
-
- touch
-* mv
-* cp
-* mkdir
-  * mkdir -p 
-* cat
-* less
-    |key|usage|
-    |---|---|
-    |j|one line down|
-    |k|one line up|
-    |d|half page down|
-    |u|half page up|
-    |space/f|page down|
-    |b|page up|
-    |/\<content\> + Enter| search |
-    |/\<content\>/-i + Enter| search ignore case|
-    |n|find next|
-    |N|find previous|
-    |G|go to bottom|
-    |gg|go to top|
-
-* tail
-* head
-* cut
-* sed
-* echo
 
 ### Conventional Paths
  are some conventional Linux paths, you will understand why some packages are storaged under certain folders
