@@ -36,24 +36,3 @@ Disclaimer: English is my second language. If you are confused, please let me kn
 [SSH](./content/ssh.md)
 
 [Vim](./content/vim.md)
-
-
-
-### Conventional Paths
- are some conventional Linux paths, you will understand why some packages are storaged under certain folders
-### .bash_profile
-#### Environmental Variables
-#### Understanding $PATH
-#### Alias
-### Pipeline Redirection
-
-[this](./content/basic_linux_commands.md)
-* [Pipeline, Redirection & Environmental Variables](./content/pipeline_redirection_and_environmental_variables.md)
-* [Shell Script](./content/shell_script.md)
-* [User, 
-Group & File Access](./content/user_group_and_file_access.md)
-* [Iptables & Firewalld](./content/iptables_firewalld.md)
-* [ssh](./content/ssh.md)
-
-
-* [Vim](./content/vim.md)
