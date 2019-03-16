@@ -15,5 +15,6 @@ man man
 ```
 
 ## Attributes of Commands
+Linux commands normally have argument syntax convention. Here is the link:
 
 https://www.gnu.org/software/libc/manual/html_node/Argument-Syntax.html
