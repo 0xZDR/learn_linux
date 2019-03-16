@@ -32,6 +32,8 @@ These commands will help you move around in shell.
 ### pwd
 Shows your working directory, which is your current directory.
 ### cd (chdir)
+In order to change your directory, you might want to read [_show files_](./file.md/#show-files) section in the file section.
+
 Change directory
 
 | | |
