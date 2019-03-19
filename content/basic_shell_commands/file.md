@@ -45,44 +45,58 @@ After you created a file, you should be able to delete it. The command to remove
 # usage
 # to remove one file
 rm <file name>
+# to remove multiple files
+rm <file name 1> <file name 2> <file name 3>
 # to remove a folder
 rm -r <folder name>
 ```
+> __IMPORTANT:__ do double check before you remove things
 
+> __IMPORTANT:__ do not do rm -rf /
 
 ## Copy
-cp
-cp -r
+### cp
+```
+# usage
+cp <source file> <target file>
+cp <source file 1> <source file 2> <target directory>
+# copy recursively 
+cp -R <source directory> <target directory>
+```
 
 ## Move
-mv
+### mv
+```
+mv source target
+mv source ... directory
+```
 
 ## Read
-cat
-less
-head
-tail
+### cat
+Concatenate and print files
+```
+# usage
+# to simply print a file
+cat file
+# to concatenate files
+cat file1 file2
+# to concatenate files and save them to a new file 
+cat file1 file2 > file3
 
-* mv
-* cp
-* mkdir
-  * mkdir -p 
-* cat
-* less
-    |key|usage|
-    |---|---|
-    |j|one line down|
-    |k|one line up|
-    |d|half page down|
-    |u|half page up|
-    |space/f|page down|
-    |b|page up|
-    |/\<content\> + Enter| search |
-    |/\<content\>/-i + Enter| search ignore case|
-    |n|find next|
-    |N|find previous|
-    |G|go to bottom|
-    |gg|go to top|
+# ctrl + d is the EOF signal, so you can use this
+cat > file
+# you can copy paste your file to the stdin at this time and hit ctrl + d to have everything casted into the file
+```
 
-* tail
-* head
+here we mentioned [pipeline redirection](), you can click on the link to 
+### less
+http://man7.org/linux/man-pages/man1/less.1.html
+### head
+http://man7.org/linux/man-pages/man1/head.1.html
+### tail
+http://man7.org/linux/man-pages/man1/tail.1.html
+```
+# usage
+# this is very useful for reading logs
+tail -f
+```
