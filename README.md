@@ -14,9 +14,8 @@ Disclaimer: English is my second language. If you are confused, please let me kn
 
 - [Navigate](./content/basic_shell_commands/navigate.md)
 - [Coventional Paths](./content/basic_shell_commands/conventional_paths.md)
-
-> 🚧🚧🚧 everything below is under construction 🚧🚧🚧
 - [File](./content/basic_shell_commands/file.md)
+> 🚧🚧🚧 everything below is under construction 🚧🚧🚧
 - [Environmental Variables](./content/basic_shell_commands/environmental_variables.md)
 
 [Pipeline](./content/pipeline.md)
